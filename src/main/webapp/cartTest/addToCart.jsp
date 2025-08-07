@@ -19,7 +19,7 @@
 		
 		if(cart == null) { //cart가 null값일때만 새로 생성
 			cart = new ArrayList<String>();//새 장바구니 생성
-		}
+		} //최초 상품 추가시에만 실행
 		
 		cart.add(product); //상품 추가
 		session.setAttribute("cart", cart); //세션에 상품 목록 저장	
